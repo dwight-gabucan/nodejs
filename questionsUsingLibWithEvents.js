@@ -9,7 +9,7 @@ const questions = [
 const answerEvents = collectAnswers(questions);
 
 answerEvents.on("answer", answer => 
-    console.log(`question answered: ${answer}`)
+    console.log(`Question answered: ${answer}`)
 );
 
 answerEvents.on("complete", answers => {
